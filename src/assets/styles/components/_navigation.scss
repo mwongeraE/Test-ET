@@ -1,0 +1,32 @@
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  height: $nav-height;
+  background-color: white;
+  backface-visibility: hidden;
+
+  .nav__inner {
+    max-width: 1366px;
+    width: calc(100% - #{$edge-gutter-width});
+    margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+      padding-left: $gutter-pad;
+      padding-right: $gutter-pad;
+    }
+  }
+}
+
+aside {
+  width: $aside-width;
+  height: calc(100vh - #{$nav-height});
+  z-index: 999;
+  backface-visibility: hidden;
+  position: fixed;
+  top: $nav-height;
+  background-color: white;
+  left: 0;
+}

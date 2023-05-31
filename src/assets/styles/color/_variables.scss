@@ -1,0 +1,49 @@
+$background: #FFFFFF;
+$dark-background: #8D8B8B;
+$primary: #00E6B5;
+$primary-light: rgb(245, 218, 192);
+$primary-dark: #E8B37D;
+$primary-gradient: linear-gradient(-45deg, #CE9E6F, #E8B37D 62%, #FFC686);
+$secondary: #081B2B;
+$black: #111111;
+$accent: #545557;
+$success: #20C997;
+$error: #E45F4D;
+$neutral-white: #FFFFFF;
+$text-main: #393838;
+$text-alt: #6D6F71;
+
+
+// OVER WRITES
+
+/*
+  LIGHT MODE
+*/
+$background-clr: #EFEFEF;
+$background-alt-clr: #FFFFFF;
+$background-alt-highlight-clr: #292F37;
+$primary: #00E6B5;
+$primary-light: #5EF8BE;
+$primary-dark: #E8B37D;
+$primary-gradient: linear-gradient(-45deg, #CE9E6F, #E8B37D 62%, #FFC686);
+$secondary: #081B2B;
+$black: #111111;
+$accent: #545557;
+$success: #5EF8BE;
+$mild: #FAED27;
+$error: #E45F4D;
+$error-glow: #D13636;
+$neutral-white: #FFFFFF;
+$text-main: #393838;
+$text-alt: rgba(248, 249, 250, 0.6);
+// forms
+
+
+/*
+  DARK MODE
+*/
+$text-main-drk: #F9F9F9;
+$text-alt-drk: rgba(248, 249, 250, 0.6);
+$background-clr-drk: #14181D;
+$background-alt-clr-drk: #1C2025;
+$background-alt-highlight-clr-drk: #292F37;
